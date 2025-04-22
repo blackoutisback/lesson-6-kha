@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Spin-off of "Project: Event invite"</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            text-align: center;
+            padding: 40px;
+            color: #333;
+        }
+
+        .invite-container {
+            background-color: #fff;
+            border: 2px solid #ccc;
+            border-radius: 12px;
+            padding: 30px;
+            max-width: 600px;
+            margin: auto;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #4CAF50;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            color: #555;
+        }
+
+        ul {
+            text-align: left;
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            padding: 6px 0;
+        }
+
+        .guest-list {
+            margin-top: 20px;
+        }
+
+        .rsvp-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 25px;
+            font-size: 1em;
+            color: white;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .rsvp-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<div class="invite-container">
+    <h1>You're Invited!</h1>
+    <h2>🎲 Game Night Party 🎮</h2>
+    
+    <p><strong>The details:</strong></p>
+    <ul>
+        <li><strong>Date:</strong> Saturday, May 10th</li>
+        <li><strong>Time:</strong> 6:00 PM - 11:00 PM</li>
+        <li><strong>Location:</strong> 123 Pixel Lane, Codeville</li>
+        <li><strong>Bring:</strong> Your favorite board or card game!</li>
+    </ul>
+
+    <div class="guest-list">
+        <p><strong>Guests so far:</strong></p>
+        <ul>
+            <li>Alex</li>
+            <li>Jordan</li>
+            <li>Morgan</li>
+        </ul>
+    </div>
+
+    <a href="#" class="rsvp-button">RSVP Now</a>
+</div>
+
+</body>
+</html>
